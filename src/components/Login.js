@@ -35,7 +35,7 @@ const Login = () => {
 
   return (
     <>
-      <div className="p-4 box">
+      <div className="p-4 box" >
         <h2 className="mb-3">Log In</h2>
         {error && <Alert variant="danger">{error}</Alert>}
         <Form onSubmit={handleSubmit}>
@@ -56,7 +56,7 @@ const Login = () => {
           </Form.Group>
 
           <div className="d-grid gap-2">
-            <Button variant="primary" type="Submit">
+            <Button variant="success" type="Submit">
               Log In
             </Button>
           </div>
